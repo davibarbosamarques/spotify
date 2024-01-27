@@ -105,6 +105,10 @@
     transform: scale(1.04);
 }
 
+.header_login .subscribe:hover{
+  color: white;
+}
+
 /* FIM HOVER */
 
 /* FIM HEADER */
