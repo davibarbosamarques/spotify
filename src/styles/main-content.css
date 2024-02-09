@@ -75,7 +75,7 @@
 }
 
 .header_login .subscribe {
-    color: #a7a7a7;
+    color: #1db570;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -86,17 +86,23 @@
 .header_login .login {
     width: 100px;
     height: 48px;
-    color: #000;
+    color: #878787;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
     border: none;
+    border: 1px solid #878787;
+    background: transparent;
 }
-
+.header_login .login:hover{
+  background-color: #1db570;
+  color: white;
+  border: none;
+}
 /* HOVER */
 
 .header_search:hover {
-    border: 0.0625rem solid #fff;
+    border: 0.0625rem solid #1db570;
     /* 1px para rem */
 }
 
@@ -126,14 +132,14 @@
   }
   
   .playlist #greeting {
-    color: var(--text-base-light);
+    color: #1db570;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
   }
   
   .playlist .session {
-    color: var(--text-base-light);
+    color: #1db570;
     font-size: 24px;
     font-weight: 700;
   }
@@ -180,6 +186,10 @@
     height: 200px;
     overflow: hidden;
     border-radius: 8px;
+  }
+  .cards:hover{
+    transform: scale(1.03);
+    border-radius: 16px;
   }
   
   .cards span {

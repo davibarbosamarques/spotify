@@ -4,6 +4,8 @@ body{
 }
 .sidebar_navigation{
     background-color: #121212;
+        /* verde claro: #1ed760;
+       verde escuro: #1db570  */
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
@@ -33,7 +35,7 @@ body{
     padding: 10px 0;
 }
 .sidebar nav ul li a{
-    color: #b3b3b3;
+    color: #1db570;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -49,7 +51,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: #1db570;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -60,7 +62,7 @@ body{
 }
 .library .library_button{
     margin-right: 10px;
-    color: #b3b3b3;
+    color: #1db570;
     background-color: transparent;
     border: 0;
     font-size: 14px;
@@ -76,7 +78,7 @@ body{
     margin-right: 10px;
     font-weight: 300;
     padding-right: 8px;
-    color:#b3b3b3;
+    color:#1db570;
 }
 .library .library_content .fa-plus{
     margin: 24px 10px;
@@ -87,12 +89,13 @@ body{
     justify-content: space-between;
     gap: 20px;
     background-color: #242424;
-    color: #b3b3b3;
+    color: #1db570;
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px #1db570;
 }
 
 .section-playlist .section-playlist_content{
@@ -101,7 +104,7 @@ body{
 }
 .section-playlist .section-playlist_content .text{
     padding-bottom: 14px;
-    color: #fff;
+    color: #1db570;
 }
 .section-playlist_content .title{
     font-weight: 700;
@@ -113,8 +116,8 @@ body{
 .section-playlist_content .section-playlist_button{
     display: flex;
     justify-content: center;
-    background-color: #FFF;
-    color:#000;
+    background-color: #1db570;
+    color:#fff;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -129,7 +132,7 @@ body{
     margin: 25px 20px;
 }
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color: #1db570;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -141,7 +144,7 @@ body{
 .languages .languages_button{
     align-items: center;
     background-color: transparent;
-    border: 1px solid #878787;
+    border: 1px solid #1db570;
     color:#FFF;
     font-weight: bold;
     cursor:pointer;
@@ -151,13 +154,18 @@ body{
     border-radius:20px;
 }
 
+.languages .languages_button:hover{
+    background-color: #1db570;
+    border: none;
+    color: white;
+}
 /* FOOTER */
 .disclaimer-premium {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #ae2896, #509bf5);
+    background-color: #1db570;
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -179,13 +187,14 @@ body{
   
   .disclaimer-premium button {
     background-color: #ffffff;
-    color: #000000;
+    color: #1db570;
     font-size: 16px;
     font-weight: bold;
     padding: 14px 30px;
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(114, 113, 113);
   }
 
   .disclaimer-premium button:hover{
